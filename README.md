@@ -1,2 +1,2 @@
 # PracticeKotlin
-Kotlin ì—°ìŠµ
+Kotlin ¿¬½À
