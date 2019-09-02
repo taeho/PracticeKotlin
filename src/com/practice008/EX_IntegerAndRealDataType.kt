@@ -18,5 +18,5 @@ fun main(args: Array<String>): Unit
 	var e: Float = 67.6f	// f를 붙이는건 float 타입 
 	val f: Double = 658.4	// Doulbe 선언과 동시에 저장
 	e = (e + f).toFloat()	// e+f를 더하면 Double타입 720.056 이 나오기때문에 float 타입으로 e를 변환
-	println(e)		// 출력 : 726.0
+	println(e)		// 출력 : 726.0, 기존에 저장된 67.6은 지워진다.
 }
