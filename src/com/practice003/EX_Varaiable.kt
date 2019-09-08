@@ -2,13 +2,13 @@ package com.practice003
 
 fun main(args: Array<String>): Unit
 {
-	// var: º¯¼ö Å°¿öµå, total: º¯¼öÀÌ¸§(½Äº°ÀÚ), Int: º¯¼öÀÇ Å¸ÀÔ
-	// var total: Int =0 //Ã³·³ ÇÑÁÙ·Î ¼±¾ðÇÏ°í ÃÊ±âÈ­µµ °¡´ÉÇÏ´Ù.
-	// ¾Æ·¡ ±¸¹®Àº var Å°¿öµå·Î totalÀÌ¶ó´Â ½Äº°ÀÚ°¡ º¯¼ö¸¦ ¶æÇÏ°í,±× Å¸ÀÔÀÌ Int¶ó°í ÄÄÆÄÀÏ·¯¿¡°Ô ¾Ë¸²	
+	// var: ë³€ìˆ˜ í‚¤ì›Œë“œ, total: ë³€ìˆ˜ì´ë¦„(ì‹ë³„ìž), Int: ë³€ìˆ˜ì˜ íƒ€ìž…
+	// var total: Int =0 //ì²˜ëŸ¼ í•œì¤„ë¡œ ì„ ì–¸í•˜ê³  ì´ˆê¸°í™”ë„ ê°€ëŠ¥í•˜ë‹¤.
+	// ì•„ëž˜ êµ¬ë¬¸ì€ var í‚¤ì›Œë“œë¡œ totalì´ë¼ëŠ” ì‹ë³„ìžê°€ ë³€ìˆ˜ë¥¼ ëœ»í•˜ê³ ,ê·¸ íƒ€ìž…ì´ Intë¼ê³  ì»´íŒŒì¼ëŸ¬ì—ê²Œ ì•Œë¦¼	
 	var total: Int
 	total = 0
 	
-	// var ´Â ÀÏ¹Ý º¯¼ö ÀÌ°í, valÀº final º¯¼ö·Î »ý°¢ÇÏ¸é µÈ´Ù.	
+	// var ëŠ” ì¼ë°˜ ë³€ìˆ˜ ì´ê³ , valì€ final ë³€ìˆ˜ë¡œ ìƒê°í•˜ë©´ ëœë‹¤.	
 	val a: Int = 10 + 53 - 7
 	println(a)
 	

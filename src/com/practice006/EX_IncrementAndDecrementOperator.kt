@@ -1,14 +1,14 @@
 package com.practice006
 
-// Áõ°¨¿¬»êÀÚ
+// ì¦ê°ì—°ì‚°ì
 fun main(args: Array<String>): Unit
 {
 	var a = 10
 	var b = 5
 
-	println(a++ + b)	// a ÈÄÀ§ Áõ°¡ ¿¬»ê > b ´õÇÑ °ª Ãâ·Â , 15
-	println(a)	// a´Â ÀÌ¹Ì Áõ°¡µÈ »óÅÂ¶ó 11
-	println(--b)	// ÀüÀ§ °¨¼ÒÇÏ°í ³­ µÚÀÇ b´Â, 4
+	println(a++ + b)	// a í›„ìœ„ ì¦ê°€ ì—°ì‚° > b ë”í•œ ê°’ ì¶œë ¥ , 15
+	println(a)	// aëŠ” ì´ë¯¸ ì¦ê°€ëœ ìƒíƒœë¼ 11
+	println(--b)	// ì „ìœ„ ê°ì†Œí•˜ê³  ë‚œ ë’¤ì˜ bëŠ”, 4
 
 	10.inv()
 }

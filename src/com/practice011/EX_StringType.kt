@@ -3,13 +3,13 @@ package com.practice011
 fun main(args: Array<String>): Unit
 {
 	var str: String = "Hello"
-	println(str)	// Ãâ·Â: Hello
+	println(str)	// ì¶œë ¥: Hello
 
 	str = str + "\nKotlin!"
-	println(str)	// Ãâ·Â: Hello\nKotlin!
+	println(str)	// ì¶œë ¥: Hello\nKotlin!
 
-	println(str[8])	// Ãâ·Â: t
+	println(str[8])	// ì¶œë ¥: t
 
-	val num = 10 * 5 + 3	// 53À¸·Î ¸¸µç´Ù.
-	println(str + num)	// String¿¡ string¾Æ´Ñ°ªÀ»´õÇÏ¸é, StringÀ¸·Î Ãâ·Â: Hello\nKotlin!53
+	val num = 10 * 5 + 3	// 53ìœ¼ë¡œ ë§Œë“ ë‹¤.
+	println(str + num)	// Stringì— stringì•„ë‹Œê°’ì„ë”í•˜ë©´, Stringìœ¼ë¡œ ì¶œë ¥: Hello\nKotlin!53
 }

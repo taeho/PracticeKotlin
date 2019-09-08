@@ -2,12 +2,12 @@ package com.practice005
 
 fun main(args: Array<String>): Unit
 {
-	// + ´õÇÏ±â, - »©±â, * °öÇÏ±â, / ³ª´« °ª ¸ò, % ³ª´« ³ª¸ÓÁö °ª
+	// + ë”í•˜ê¸°, - ë¹¼ê¸°, * ê³±í•˜ê¸°, / ë‚˜ëˆˆ ê°’ ëª«, % ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ ê°’
 	val num: Int = 15 -4 * 3
 	val num2: Int = 65 % 7
 	val num3: Double = 7.5/5+22.25
 	//	val num4: Double = num/num2 + 0.7
-	// int ¿Í doubleÀº »ó¼Ó °ü°è°¡ ¾Æ´Ï¹Ç·Î Ä³½ºÆÃÀÌ ¾ÈµÊ. ±×·¡¼­ toDouble¸Ş¼Òµå¸¦ »ç¿ëÇØ¼­ º¯È¯
+	// int ì™€ doubleì€ ìƒì† ê´€ê³„ê°€ ì•„ë‹ˆë¯€ë¡œ ìºìŠ¤íŒ…ì´ ì•ˆë¨. ê·¸ë˜ì„œ toDoubleë©”ì†Œë“œë¥¼ ì‚¬ìš©í•´ì„œ ë³€í™˜
 	val num4: Double = num.toDouble() /num2 + 0.7
 	
 	println(num)

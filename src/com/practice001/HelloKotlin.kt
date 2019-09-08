@@ -1,8 +1,8 @@
 package com.practice001
 
-// fun: functionÀÇ ¾àÀÚ, ÇÔ¼ö¸¦ ÀÇ¹Ì
-// main: ÇÔ¼öÀÇ ÀÌ¸§ ÀÇ¹Ì
-// java ¿Í ´Ù¸£°Ô ³¡¿¡ ; ¼¼¹ÌÄİ·ĞÀ» ±âÀÔÇÏÁö ¾Ê´Â´Ù.
+// fun: functionì˜ ì•½ì, í•¨ìˆ˜ë¥¼ ì˜ë¯¸
+// main: í•¨ìˆ˜ì˜ ì´ë¦„ ì˜ë¯¸
+// java ì™€ ë‹¤ë¥´ê²Œ ëì— ; ì„¸ë¯¸ì½œë¡ ì„ ê¸°ì…í•˜ì§€ ì•ŠëŠ”ë‹¤.
 fun main(args: Array<String>):Unit
 {
 	println("Hello, Kotlin!!")
