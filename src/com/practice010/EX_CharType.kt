@@ -9,5 +9,5 @@ fun main(args: Array<String>): Unit
 	println(ch)		// 출력: 가
 
 	ch = '한'
-	println(ch.toInt())	// 출력 54620, 유니코드 매핑되는 int값
+	//println(ch.toInt())	// 출력 54620, 유니코드 매핑되는 int값
 }
