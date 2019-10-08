@@ -14,3 +14,4 @@ fun main(args: Array<String>)
 	instantFunc.invoke(33)	// 함수 타입의 변수는 invoke 멤버 함수를 통해서도 호출 가능.
 	// 변수가 Nullable 일 때는 invoke 를 통해서 호출하는 편이 instantFunc?.invoke(33) 과 같이 쓸수있으므로 Null 처리 편해진다.  출력: Hello 33
 }
+// kotlin 에서는 함수리터럴을 두가지 형태로 만들수있다. 이번에 배운 {매개변수->반환값}형태식 중 하나이며, 이를 람다식 Lambda Expression 이라고 부른다.
