@@ -1,4 +1,5 @@
 package com.practice013
+// 타입 별명 Type Alias
 
 typealias Number = Int	// 이미 존재하는 타입에 별명을 붙일 수 있다.
 

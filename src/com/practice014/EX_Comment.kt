@@ -1,4 +1,5 @@
 package com.practice014
+// 주석Comment:  소스코드가 자연어가 아니기때문에 설명하기 위한 문법
 
 fun main(args: Array<String>): Unit
 {
